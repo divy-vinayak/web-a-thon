@@ -1,0 +1,22 @@
+.LoginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+    
+    }
+    Form {
+        border: 1px solid #d6d6d6;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .timeremaininclockContainer{
+        position: relative;
+    }
+    .timeremaininclock{
+        position: absolute;
+        color: wheat;
+        top: 32px;
+        right: 12px;
+    }
