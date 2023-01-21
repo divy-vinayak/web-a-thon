@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "webathon"
 ]
+AUTH_USER_MODEL = 'webathon.User'
+swappable = 'AUTH_USER_MODEL'
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
